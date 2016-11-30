@@ -1,0 +1,193 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.logo-container{
+    width: 100%;
+    height: 112px;
+}
+.logo{
+    width: 1000px;
+    height: 100%;
+    background-color: rgba(170,170,170,0.5);
+    margin: 0 auto;
+}
+.logo-picture{
+    width: 292px;
+    height: 79px;
+    margin-left: -40px;
+    margin-top: 16px;
+    float: left;
+    background-color: #7C7F79;
+    font-family:微软雅黑;
+    font-size: 16px;
+    color:white;
+    line-height: 79px;
+    text-align: center;
+}
+
+.logo .logo-menu{
+    float: left;
+    width: 340px;
+    height: auto;
+    margin-left: 400px;
+    line-height:112px ;
+
+}
+.logo-menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 微软雅黑;
+
+}
+.web{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.homePage{
+    width: 750px;
+    height: auto;
+    float: left;
+    background-color: white;
+}
+.passage-container{
+    width: 1000px;
+    height:auto;
+    margin: 0 auto;
+}
+.passage-container h2{
+    height: 16px;
+    margin: 35px 0 0 0;
+}
+.passage-container h3{
+    height: 29px;
+    font-size: 30px;
+    color: red;
+    margin: 7px 0 0 0;
+}
+.passage-container p{
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.passage-container a{
+    color: goldenrod;
+}
+[type = button]{
+    width: 28px;
+    height: 32px;
+    border: 1px solid rgba(100,149,237,0.8);
+    margin-top: 4px;
+}
+.pageTurning a{
+    text-decoration: none;
+    color: black;
+}
+[type = button]:hover{
+    background-color: white;
+    outline: none;
+}
+.pageTurning{
+    width: 740px;
+    height: 40px;
+    background-color: rgba(100,149,237,0.4);
+    border-top: 1px solid rgba(100,149,237,0.4);
+    border-bottom: 1px solid rgba(100,149,237,0.4);
+}
+.app{
+    width: 740px;
+    height: auto;
+    margin-top: 23px;
+    overflow: hidden;
+}
+.appBox{
+    margin-right: 30px;
+    float: left;
+    width: 212px;
+    height: auto;
+    margin-bottom: 32px;
+}
+.pageTurning{
+    width: 740px;
+    height: 40px;
+    background-color: rgba(100,149,237,0.4);
+    border-top: 1px solid rgba(100,149,237,0.4);
+    border-bottom: 1px solid rgba(100,149,237,0.4);
+}
+.footer{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.footer a{
+    color: red;
+    font-family: 微软雅黑;
+}
+.search-container{
+    width:250px;
+    height: auto;
+    margin-top:20px ;
+    float: left;
+    position: relative;
+}
+.search{
+    width: 150px;
+    height: 20px;
+    display: block;
+
+ }
+.searchImg{
+    width: 80px;
+    position: absolute;
+    right: 8px;
+    top:0;
+}
+.searchBox{
+    height: 220px;
+    margin-left: -20px;
+}
+.searchBox li{
+    margin-bottom: 17px;
+    font-family: 微软雅黑;
+}
+.searchBox a{
+    list-style: circle;
+}
+.searchBox a:hover{
+    list-style: square;
+    color: red;
+}
+.textBox{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
+.textBox:first-line{
+    color: red;
+    font-family: 微软雅黑;
+    font-size: 20px;
+}
+.textBox p{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+.wifi a{
+    color: red;
+}
+.book a{
+    font-size: 16px;
+    color: red;
+}
+.book h3{
+    color: red;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+.link a{
+    font-size: 12px;
+}

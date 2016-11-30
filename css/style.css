@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 1000px;
+    height: 280px;
+    margin: 0 auto;
+}
+.logo .inner{
+    width: 242px;
+    height:220px;
+    margin: 15px 0 0 20px;
+    background-image: url("../images/b.jpg");
+    position: absolute;
+
+}
+.logo .name{
+    font-family: 华文行楷;
+    font-size: 40px;
+    margin-left: 500px;
+    margin-top: 140px;
+    position: absolute;
+}
+.title{
+    width:1000px;
+    height:30px;
+    background-color: red;
+    margin: 0 auto;
+}
+ol li{
+    list-style: none;
+    float: left;
+}
+.ranking{
+    font-family: 华文行楷;
+    font-size: 25px;
+    position: absolute;
+    margin: 0;
+}
+:link{
+    text-decoration: none;
+    color:black;
+}
+.ranking :hover{
+    color:yellow;
+}
+.title1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 华文楷体;
+    background-color: rgba(0%,100%,0%,0.1)
+}
+.album{
+    width: 223px;
+    height: 300px;
+    background-color: #a5fff7;
+    overflow: hidden;
+}
+.picture{
+    width: 223px;
+    height: 223px;
+}
+.box{
+    float: left;
+}

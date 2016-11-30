@@ -1,0 +1,325 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    width: 100%;
+    height: 156px;
+    position: relative;
+
+}
+
+.logo-container {
+    width: 1000px;
+    height: 100%;
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+}
+
+.logo-container a {
+    text-decoration: none;
+    display: block;
+    width: 173px;
+    height: 90px;
+    margin-top: 21px;
+    margin-left: 15px;
+}
+
+.webTitle {
+    width: 173px;
+    height: auto;
+    text-align: center;
+    margin-top: 9px;
+    letter-spacing: 8px;
+    color: black;
+}
+
+.navigator {
+    width: 100%;
+    height: 35px;
+    background-color: #8C2106;
+}
+
+.navigator .inner {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.navigator .inner a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-container {
+    width: 280px;
+    height: 25px;
+    background-color: #E13409;
+    float: left;
+    margin: 5px 15px;
+    border: 1px solid #6F1A04;
+    border-radius: 5px;
+    line-height: 1px;
+}
+
+.search-input {
+    height: 100%;
+    width: 255px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.search-container * {
+    display: block;
+    float: left;
+}
+
+.search-container img {
+    margin-top: 1px;
+}
+
+.picture {
+    width: 1000px;
+    height: auto;
+    margin: 53px auto;
+    overflow: hidden;
+}
+.picture-box .img1{
+    width: 31px;
+    height:41px;
+    background-image:url("../images/xuebitu1.png") ;
+    position: absolute;
+}
+.pointImg1{
+    background-position: -31px 0;
+
+}
+.pointImg1:hover{
+    background-position: -31px -41px;
+}
+.pointImg2{
+    background-position: 0 0;
+}
+.pointImg2:hover{
+    background-position: 0 -41px;
+}
+.pointImg1{
+    margin-top: 106px;
+}
+.pointImg2{
+    margin-top: 106px;
+    margin-left: 201px;
+}
+.picture h1 {
+    font-size: 36px;
+    margin-left: 34px;
+    margin-bottom: 28px;
+}
+
+.picture-box {
+    width: 232px;
+    height: 253px;
+    margin-top: 28px;
+    float: left;
+    margin-right: 16px;
+    position: relative;
+}
+
+.picture-box img {
+    position: absolute;
+
+}
+
+.picture-box .point {
+    margin-top: 106px;
+}
+
+.picture-box .point2 {
+    margin-top: 106px;
+    margin-left: 201px;
+}
+
+.picture-container {
+    width: 1000px;
+    height: auto;
+    margin-left: 12px;
+}
+
+.introduce {
+    width: 1000px;
+    height: auto;
+    margin: 55px auto 0;
+    overflow: hidden;
+
+}
+
+.introduction {
+    width: 521px;
+    height: auto;
+    float: left;
+}
+
+.introduction h2 {
+    font-size: 26px;
+    margin-left: 33px;
+    margin-bottom: 26px;
+}
+
+.introduction-box {
+    width: 481px;
+    height: auto;
+    margin-left: 40px;
+}
+
+.introduction-box p {
+    font-size: 12px;
+    font-family: 微软雅黑;
+}
+
+.introduction-box a {
+    text-decoration: none;
+}
+
+.pag {
+    margin-left: 31px;
+    float: left;
+}
+
+.pag-box1 {
+    width: 126px;
+    height: 37px;
+    background-color: #0EB61B;
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+    position: absolute;
+}
+
+.pag-box2 {
+    width: 126px;
+    height: 37px;
+    background-color: #184FDE;
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+}
+.pag-box3 {
+    width: 126px;
+    height: 37px;
+    background-color: #C23112;
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 100px;
+    margin-top: 75px;
+    position: absolute;
+}
+.pag-box4 {
+    width: 126px;
+    height: 37px;
+    background-color: #7E01C2;
+    border-radius: 5px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    text-align: center;
+    line-height: 37px;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: absolute;
+}
+.box:hover {
+    background-color: yellow;
+}
+.strategy{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.strategy-box{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #000000;
+    margin-left: 40px;
+}
+.strategy h2 {
+    font-size: 26px;
+    margin-left: 33px;
+}
+.comment{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.comment h2{
+    font-size: 26px;
+    margin-left: 33px;
+}
+.comment a{
+    font-size: 16px;
+}
+.comment1{
+    border-radius:3px ;
+    border: 1px solid #173FFF;
+    margin-left: 10px;
+
+}
+.box{
+    width: 474px;
+    height: 33px;
+    position: absolute;
+}
+.box0{
+    width: 494px;
+    height: 85px;
+    position: absolute;
+}
+.box1{
+    width: 515px;
+    height: 132px;
+    position: absolute;
+}
+.box2{
+    width: 535px;
+    height: 190px;
+    position: absolute;
+}
+.box3{
+    width: 554px;
+    height:245px;
+    position: absolute;
+}
+.box4{
+    width: 572px;
+    height: 310px;
+    position: absolute;
+}
+.box5{
+    width: 588px;
+    height:375px;
+    position: absolute;
+}
+
+.comment1 label{
+    color: #173FFF;
+    font-size: 14px;
+}
+.comment-box{
+    margin-left: 120px;
+}
