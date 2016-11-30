@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [title] {
+            color: #fff;
+            background-color: #777;
+        }
+
+        [data-code] {
+            color: #010;
+            background-color: #000;
+        }
+
+        #dataSubmitWrapper form [for = goodsCode] {
+            color: yellow;
+        }
+
+        #dataSubmitWrapper form > [ for = goodsName] {
+            color: gray;
+        }
+        a:link{
+            color:black;
+        }
+        a:hover{
+            text-decoration: none;
+            background-color: yellow;
+        }
+        a:visited{
+            color:red;
+        }
+
+        #focusButton:focus{
+            background-color: black;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h1>CSS属性选择器</h1>
+<p>段落I</p>
+<p title="abc">title-abc</p>
+<p title="def">title-def</p>
+<p data-code="ghi">data-code = ghi</p>
+<hr/>
+<h2>示例3</h2>
+<div id="dataSubmitWrapper" class="container">
+    <form action="#">
+        <label for="goodsCode">商品代码</label>：<input id="goodsCode" type="text" /><br />
+        <label for="goodsId">商品ID</label>：<input id="goodsId" type="text" /><br />
+        <label for="goodsName">商品名称</label>:<input id="goodsName" type="text" /><br />
+        <label for="isCustom">是否为自定义:</label><input id="isCustom" type="checkbox" /><br />
+        <label for="address">地址</label>：
+        <select id="address">
+            <option>四川</option>
+            <option>北京</option>
+            <option>上海</option>
+            <option>南京</option>
+            <option selected>苏州</option>
+        </select><br />
+        <label for="gender1">性别</label>：
+        <input type="radio" checked name="box" id="gender1"/><label>男</label>
+        <label for="gender2"></label>
+        <input type="radio" checked name="box" id="gender2"/><label>女</label><br />
+        <input type="submit" value="提交"/> <input type="button" value="取消"/>
+        <label for="focusButton"></label> <input id="focusButton"  value="button" />
+
+    </form>
+
+    <a href="index.html" target="_blank">我的网页</a>
+    <img src="images/b.jpg"  title="布兰妮" >
+</div>
+
+</body>
+</html>

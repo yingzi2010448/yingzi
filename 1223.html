@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .box {
+           background-color: blue;
+            float: left;
+            width:100px;
+            height:100px;
+        }
+        .relative{
+            top: 20px;
+            left:20px;
+            position: relative;
+            background-color: red;
+        }
+        .absolute{
+            top: 20px;
+            left:20px;
+            background-color: yellow;
+            position: absolute;
+        }
+        .relative1{
+            top: 20px;
+            left:20px;
+            position: relative;
+        }
+        .relative2{
+            top: 20px;
+            left:20px;
+            position: absolute;
+        }
+        .position{
+            position: fixed;
+            background-color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+ <div class="box ">
+     1
+ </div>
+ <div class="box">
+     2
+ </div>
+ <div class="box absolute">
+     3
+     <div class="relative2 box">
+         嵌套
+     </div>
+ </div>
+ <div class="box relative">
+
+     <div class="relative1 box">
+         嵌套
+     </div>
+ </div>
+ <div class="box">
+    5
+ </div>
+ <div class="position box">
+     屠龙宝刀，点击就送
+
+ </div>
+</body>
+</html>

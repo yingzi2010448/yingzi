@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>布局</title>
+    <style>
+        [ for = gender ]{
+            color: yellow;
+        }
+        #favorite4{
+            color:red;
+        }
+
+        #div form [for=favorite4]{
+            color:red;
+        }
+        #box1{
+            width: 200px;
+            height:50px;
+        }
+        #box2{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            visibility: hidden;
+        }
+        #text{
+            border: none;
+            background: none;
+        }
+        #text:focus {
+            outline: none;
+        }
+        #text:focus > #box2 {
+            visibility: visible;
+        }
+        [for = address]{
+            font-family: 华文彩云;
+            font-size:50px;
+        }
+
+        #headImg{
+            width: 100px;
+            height: 70px;
+            margin-left: 60px;
+            margin-top: -20px;
+        }
+        #email:focus{
+            background-color: blue;
+        }
+        [ for = one]{
+            font-style: italic;
+            color: blue;
+        }
+        #one {
+            margin-left: 80px;
+        }
+        #two{
+            margin-left: 80px;
+        }
+        [for = two]{
+            margin-left: 50px;
+        }
+        #four{
+            margin-left: 400px;
+            margin-top: -200px;
+        }
+
+    </style>
+</head>
+<body>
+ <h1>学员信息登记</h1>
+<div id="div">
+    <form>
+        <label for="userName">姓名</label>:&nbsp;<input id="userName" type="text" /><br />
+        <br />
+        <label for="gender">性别：</label>女
+         <input id="gender"  type="radio" name="sex"/>
+        <label >男</label>
+         <input  type="radio" name="sex"/><br />
+        <br />
+        <label>爱好</label>:
+        <label for="favorite1">篮球</label>
+         <input id="favorite1" type="checkbox"/>
+        <label for="favorite2">刷微博</label>
+         <input id="favorite2" type="checkbox"/>
+        <label for="favorite3">购物</label>
+         <input id="favorite3" type="checkbox"/>
+        <label for="favorite4">总结知识结构技能</label>
+         <input id="favorite4" type="checkbox"/><br />
+        <br />
+        <label for="headImg">头像</label>：<br>
+         <img src="images/b.jpg" id="headImg" ><br />
+        <br />
+        <label for="email">邮箱</label>：
+         <input id="email" type="text" /><br />
+        <br />
+        <label for="province">所在地</label>：
+          <select id="province">
+              <option selected>四川</option>
+              <option>陕西</option>
+              <option>贵州</option>
+          </select>
+        <label for="city"></label>
+        <select id="city">
+            <option selected>成都</option>
+            <option>眉山</option>
+            <option>达州</option>
+        </select>
+        <label for="county"></label>
+        <select id="county">
+            <option selected>双流</option>
+            <option>武侯区</option>
+            <option>温江</option>
+        </select>
+        <label for="street"></label>
+        <select id="street">
+            <option selected>某某街道</option>
+            <option>天府大道</option>
+            <option>华阳大道</option>
+        </select><br />
+        <br />
+        <label for="address">详细地址:</label>
+         <input id="address" type="text"/><br />
+        <br />
+        <label for="one">考过的证书</label>：
+          <ul id="one">
+              <li>计算机登记证</li>
+              <li>好人证</li>
+              <li>学位证</li>
+          </ul><br />
+        <label for="two">其他</label>：
+        <ol id="two" start="5" type="I">
+            <li>大学英语四级证</li>
+            <li>证书</li>
+            <li>优秀团员</li>
+            <li>五好学生证</li>
+        </ol><br />
+        <label for="math">数学成绩</label>:
+        <input id="math" type="number"/><br />
+        <img src="images/b2.jpg" id="four"><br/>
+        <label for="three">空气湿度</label>:
+         <input id="three" type="range"/><br />
+        <button id="text">
+            <div id="box1">
+                点我啊
+            </div>
+            <div id="box2">
+
+            </div>
+        </button><br />
+        <input type="submit" value="提交"/> <input type="button" value="取消" />
+    </form>
+
+</div>
+
+</body>
+</html>
