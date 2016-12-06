@@ -6,9 +6,9 @@ body{
     box-sizing: border-box;
 }
 .logo-inner{
-    width: 100%;
+    width: 1500px;
     height: 80px;
-    border-bottom:2px solid #D4D5D6 ;
+    border-bottom:2px solid #D4D5D6;
 }
 .logo-container{
     width: 1500px;
@@ -18,6 +18,7 @@ body{
 .logo{
     margin-top: 15px;
     float: left;
+    margin-left: 5px;
 }
 .option{
     float: left;
@@ -44,7 +45,6 @@ body{
 .searchBorder{
     width: 417px;
     height: 38px;
-    outline: none;
     border: none;
 
 }
@@ -54,6 +54,142 @@ body{
     top:0;
 }
 .navigation{
-    width: 484px;
     height: 32px;
+    float: left;
+}
+.moreLogo{
+    width: 38px;
+    height: 33px;
+    color: white;
+    font-size: 25px;
+    background-color: #DDDDDD;
+    border: none;
+    border-radius: 3px ;
+    margin-left: 50px;
+}
+.navigation div{
+    height: 30px;
+    float: left;
+    border-left:2px solid #EBEBEB ;
+    margin-top: 23px;
+    text-align: center;
+    line-height: 30px;
+    font-family: 微软雅黑;
+    margin-left: 20px;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+}
+.selectBox{
+    border: none;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    margin-top: 25px;
+}
+.navBao Img{
+    margin-top: 17px;
+}
+.navBao div{
+    float: left;
+}
+
+.box4{
+    border-right: 2px solid #EBEBEB;
+}
+.box5{
+    margin-left: 10px;
+}
+.titleContainer{
+    width: 1500px;
+    height: 594px;
+    margin: 0 auto;
+}
+.photo{
+    margin-top: 37px;
+    float: left;
+}
+.title{
+    margin-top: 37px;
+    width: 583px;
+    height: 364px;
+    border: 2px solid #D4D5D6;
+    float: left;
+    margin-left: 25px;
+ }
+.titleBox{
+    margin-left: 38px;
+    width: 508px;
+    height: 64px;
+    border-bottom: solid 1px #D4D5D6;
+    line-height: 64px;
+}
+.pageBox{
+    width: 508px;
+    height: 105px;
+    margin-left: 38px;
+    border-bottom: dashed 1px #D4D5D6;
+}
+.STitle{
+    width: 508px;
+    height: 63px;
+    margin-left: 38px;
+    border-bottom: dashed 1px #D4D5D6;
+    line-height: 63px;
+
+}
+.STitle-2{
+    width: 508px;
+    height: 63px;
+    margin-left: 38px;
+    border-bottom: solid 1px #D4D5D6;
+    line-height: 63px;
+
+}
+.STitle-3{
+    width: 508px;
+    height: 69px;
+    margin-left: 38px;
+    border:none;
+    line-height: 69px;
+
+}
+.appPhoto{
+    margin-top: 27px;
+    width: 583px;
+    height: 165px;
+}
+.hrStyle{
+    width: 1500px;
+    color: #D4D5D6;
+    margin-top: 50px;
+}
+.album:first-line{
+    font-size: 28px;
+}
+.album{
+    width: 1500px;
+    height: auto;
+    margin-top: 45px;
+}
+.photo-container{
+    width: 1500px;
+    height: auto;
+    margin-top: 43px;
+}
+.photo-box{
+    width: 275px;
+    height: 404px;
+    border: solid 1px #D4D5D6;
+    float: left;
+    margin-right: 25px;
+}
+.picture{
+    width: 275px;
+    height: 280px;
+    border: 1px;
+
+}
+.photo-container a:hover{
+    border-color:rgba(199,199,199,0.3);
 }

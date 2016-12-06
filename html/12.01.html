@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .transitionText div{
+            width: 200px;
+            height:20px;
+            transition: width 5s;
+            border: dashed 1px green;
+        }
+        .transitionText div:hover{
+            transform: rotate(-12000deg);
+            width: 600px;
+
+        }
+        .transitionText2{
+            width: 200px;
+            height: 200px;
+            transition: transform 1s;
+            background-color:green ;
+
+        }
+        .transitionText2:hover{
+            transform: rotate(-1000deg) translate(500px ,700px) scale(0.6 ,0.5);
+
+        }
+        .transitionText3{
+            margin-top: 50px;
+        }
+        .transitionText3 div{
+            float: left;
+            width: 50px;
+            height: 30px;
+            border: solid 1px yellow;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            transition: transform 2s;
+        }
+        @font-face {
+            font-family: bole;
+            src:url("")
+        }
+        .transitionText3 div:hover{
+            transform: scale(0.8,0.8);
+            border: none;
+            font-family: bole;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div class="transitionText">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div class="transitionText2">
+
+</div>
+<div class="transitionText3">
+    <div>确定</div>
+    <div>取消</div>
+    <div>提交</div>
+    <div>注册</div>
+    <div>登录</div>
+</div>
+
+</body>
+</html>

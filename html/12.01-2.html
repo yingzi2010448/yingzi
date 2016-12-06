@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            column-count: 5;
+            column-rule: 1px dotted #000 ;
+            column-gap: 100px;
+        }
+        body{
+            font-size: 0.65em;
+        }
+        .container{
+            width: 1000px;
+            height: 600px;
+            background-color: yellow;
+        }
+        .container div{
+            width: 200px;
+            height: 200px;
+            border:1px solid white;
+        }
+        .container{
+            column-gap: 100px;
+            column-width: 200px;
+        }
+        .flex-container{
+            width: 100vw;
+            height: 63vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+            width: 13vw;
+            height: 50px;
+            background-color: #7E01C2;
+            color:#fff;
+        }
+
+    </style>
+</head>
+<body>
+<p>
+    多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试
+    多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试多列测试
+</p>
+<div class="container">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<div>
+    <span style="font-size: 1.2em">文字大小</span><br/>
+    <span style="font-size: 1.4em">文字大小</span><br/>
+    <span style="font-size: 1.6em">文字大小</span><br/>
+    <span style="font-size: 1.8em">文字大小</span><br/>
+    <span style="font-size: 2em">文字大小</span><br/>
+    <span style="font-size: 2.2em">文字大小</span><br/>
+</div>
+
+
+<div class="flex-container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item" style="flex-wrap: nowrap; ">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+</div>
+</body>
+</html>

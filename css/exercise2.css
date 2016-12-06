@@ -223,4 +223,54 @@ body{
     background-color: #DEDFDC;
     float: left;
     margin-top: 10px;
+    position: relative;
+}
+.searchInput{
+    width:238px ;
+    height: 24px;
+    margin-top: 13px;
+    margin-left: 14px;
+}
+.searchP{
+    width: 108px;
+    height: 27px;
+    background-color: #93273F;
+    float: right;
+    right: 40px;
+    position: absolute;
+    margin-top: -25px;
+    border-radius: 5px;
+
+}
+.searchP a{
+    text-decoration: none;
+    color: white;
+}
+.searchP {
+    text-align: center;
+    line-height: 27px;
+}
+.web{
+    margin-top: 10px;
+}
+.web:first-line{
+    color: red;
+    font-size: 20px;
+}
+.web a{
+    color: red;
+    font-size: 15px;
+}
+.web ul{
+    list-style-image:url("../images/ul.png") ;
+}
+.web li:hover{
+    list-style-image: url("../images/ul2.png")
+}
+.h2{
+    font-size: 20px;
+    color: red;
+}
+.article{
+    word-wrap:break-word ;
 }
